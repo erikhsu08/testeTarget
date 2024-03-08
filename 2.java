@@ -1,6 +1,6 @@
 public class Main {
   public static void main(String[] args) {
-    int n = 34;
+    int n = 34; //numero que se deseja procurar
     int[] sequencia = criaSequencia(n);
     buscabinaria(n, sequencia);
   }
@@ -43,7 +43,6 @@ public class Main {
     }
     System.out.println("O número " + n + " não faz parte da sequência fibonacci!");
   }
-
 }
 
 
